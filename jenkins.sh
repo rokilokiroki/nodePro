@@ -1,5 +1,5 @@
-#!/bin/bash
-
+#!/bin/sh
+git --version
 git clone https://github.com/rokilokiroki/nodePro.git
 echo 'cloning success!'
 cd nodePro
