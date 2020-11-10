@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha formTest.js"
+    "test": "mocha formTest.js --reporter mocha-junit-reporter"
   },
   "keywords": [],
   "author": "",
