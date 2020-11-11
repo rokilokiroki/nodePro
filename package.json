@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "intelli-espower-loader": "^1.0.1",
     "mocha": "^8.2.0",
+    "power-assert": "^1.6.1",
     "selenium-webdriver": "^4.0.0-alpha.7"
   }
 }
