@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha formTest.js"
+    "test": "mocha formTest.js --reporter mocha-junit-reporter"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,7 @@
   "devDependencies": {
     "intelli-espower-loader": "^1.0.1",
     "mocha": "^8.2.0",
+    "mocha-junit-reporter": "^2.0.0",
     "power-assert": "^1.6.1",
     "selenium-webdriver": "^4.0.0-alpha.7"
   }
